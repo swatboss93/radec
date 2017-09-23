@@ -14,6 +14,7 @@ public class ClasseQualquer {
     int idade;
     int cpf;
     String nome;
+    String sobrenome;
 
     public int getIdade() {
         return idade;
@@ -37,6 +38,14 @@ public class ClasseQualquer {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getSobrenome() {
+        return sobrenome;
+    }
+
+    public void setSobrenome(String sobrenome) {
+        this.sobrenome = sobrenome;
     }
     
     
