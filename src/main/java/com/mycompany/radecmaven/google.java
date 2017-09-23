@@ -5,10 +5,11 @@
  */
 package com.mycompany.radecmaven;
 
+import com.google.common.collect.AbstractIterator;
 /**
  *
  * @author walli
  */
 public class google {
-    
+    AbstractIterator<Object> a;
 }
